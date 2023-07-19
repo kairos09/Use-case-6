@@ -1,0 +1,1 @@
+{"UnencryptedVolumes": [{"VolumeId": "vol-0c7d57ae2c5f6ecf2", "Size": 8}, {"VolumeId": "vol-0c45d832b73319f34", "Size": 3}], "UnattachedVolumes": [{"VolumeId": "vol-0c45d832b73319f34", "Size": 3}], "UnencryptedSnapshots": [{"SnapshotId": "snap-01951de6befdb5038", "Size": 8}, {"SnapshotId": "snap-0234b3c668d802019", "Size": 8}, {"SnapshotId": "snap-00a61f03aa7b1c868", "Size": 3}]}

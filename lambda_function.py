@@ -5,12 +5,11 @@ import os
 
 def lambda_handler(event, context):
 
-    
     logger = logging.getLogger()
     logger.setLevel(logging.INFO)
 
     s3 = boto3.resource('s3')
-    ec2 = boto3.resource('ec2')
+    ec2 = boto3.resource('ec2', region_name='us-east-1')  
     bucket_name = os.environ['BUCKET_NAME']  
 
     unencrypted_volumes = []
